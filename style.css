@@ -1,0 +1,142 @@
+body{
+    font-family: "Encode Sans", sans-serif;
+    font-size: 20px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.espaço{
+    padding: 80px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 2px solid #EBEDEF;
+    border-left: none;
+    border-right: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.principais{
+    color: #C4160C;
+    font-size: 52px;
+    font-weight: bold;
+    width: 624px;
+    height: 201px;
+}
+
+
+.materia{
+    font-size: 18px;
+    color: #303134;
+    width: 622px;
+    height: 25px;
+}
+
+.divisoria{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #EBEDEF;
+    width: 640px;
+
+}
+
+.terciarias{
+    padding-top: 20px;
+    display: flex;
+}
+
+.terciarias h6{
+    margin-top: auto;
+    color: #C4170C;
+    font-size: 14px;
+}
+
+.terciarias h4{
+    font-size: 20px;
+    height: 84px;
+    width: 192px;
+}
+
+.terciarias p{
+    font-size: 14px;
+    width: 174px;
+    height: 42.5px;   
+}
+
+.terciarias img{
+    border-radius: 12px;
+    padding-right: 20px;
+}
+
+
+.g1{
+    color:#C3170C;
+    font-weight: bolder;
+    font-size: 19px;
+
+}
+
+.globo{
+    color: #1E4B9B;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.valor{
+    color: #006766;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.ge{
+    color: #07AA47;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.cartola{
+    color: #E3662B;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.globoplay{
+    color: #FB0735;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.dropz{
+    color: #FF75BB;
+    font-weight: bolder;
+    font-size: 19px;
+}
+.gshow{
+    color: #EC7D00;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.quem{
+    color: #323333;  
+    font-weight: bolder;
+    font-size: 19px;
+
+}
+
+.receitas{
+    color: #A81D83;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
