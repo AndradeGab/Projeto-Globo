@@ -159,3 +159,44 @@ body{
     font-size: 19px;
 }
 
+.card3{
+    position: relative;
+    display: flex;
+    bottom: 950px;
+    left: 730px;
+    flex-direction: column;
+    width: 213px;
+    height: 324.69px;
+}
+
+.card3 h6{
+    color: #16AE54;
+    font-size: 14px;
+    width: 240px;
+    height: 19px;
+    margin-top: auto;
+}
+
+.card3 h4{
+    width: 240px;
+    height: 84px;
+    margin-bottom: auto;
+}
+
+.card3 p{
+    font-size: 14px;
+}
+
+.card3 img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+#posicao{
+    padding-top: 10px;
+}
+
+.point{
+    position: relative;
+    top: 10px;
+}
