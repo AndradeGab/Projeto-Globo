@@ -3,6 +3,8 @@ body{
     font-size: 20px;
     max-width: 1250px;
     margin: 0 auto;
+     max-height: 100vh;
+    overflow-y: auto;
 }
 
 .espaço{
@@ -199,4 +201,59 @@ body{
 .point{
     position: relative;
     top: 10px;
+}
+
+.card4 h6{
+    color: #EC8006;
+    font-size: 14px;
+    width: 240px;
+    height: 19px;
+    margin-top: 11px;
+}
+
+.card4{
+   position: relative;
+    display: flex;
+    bottom: 1985px;
+    left: 1050px;
+    flex-direction: column;
+    width: 213px;
+    height: 324.69px;
+}
+
+
+
+.card4 img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.card4 h4{
+    width: 240px;
+    height: 84px;
+    margin-bottom: auto;
+}
+
+.card4 p{
+    font-size: 14px;
+    position: relative;
+    bottom: 15px;
+
+}
+
+#sobe{
+    position: relative;
+    bottom: 45px;
+    left: -2px;
+}
+
+.card4::before {
+    content: "";
+    position: absolute;
+    transform: rotate(90deg);
+    top: 185px;           
+    left: -250px;
+    width: 190%;
+    height: 2px;
+    background-color: #EBEDEF;
 }
