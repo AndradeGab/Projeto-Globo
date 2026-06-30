@@ -1,259 +1,306 @@
-body{
-    font-family: "Encode Sans", sans-serif;
-    font-size: 20px;
-    max-width: 1250px;
-    margin: 0 auto;
-     max-height: 100vh;
-    overflow-y: auto;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-.espaço{
-    padding: 80px;
+body{
+    font-family:"Encode Sans", sans-serif;
+    background:#fff;
 }
+
+img{
+    display:block;
+    max-width:100%;
+}
+
+ul{
+    list-style:none;
+}
+
+/* ==========================
+   HEADER
+========================== */
 
 .logo{
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+    display:flex;
+    justify-content:center;
+    padding:20px 0;
 }
 
 .lista{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border: 2px solid #EBEDEF;
-    border-left: none;
-    border-right: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    list-style-type: none;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+
+    padding:14px 0;
+
+    border-top:1px solid #EBEDEF;
+    border-bottom:1px solid #EBEDEF;
+
+    font-size:19px;
+    font-weight:700;
 }
 
-.principais{
-    color: #C4160C;
-    font-size: 52px;
-    font-weight: bold;
-    width: 624px;
-    height: 201px;
+.g1{color:#C3170C;}
+.globo{color:#1E4B9B;}
+.valor{color:#006766;}
+.ge{color:#07AA47;}
+.cartola{color:#E3662B;}
+.globoplay{color:#FB0735;}
+.dropz{color:#FF75BB;}
+.gshow{color:#EC7D00;}
+.quem{color:#323333;}
+.receitas{color:#A81D83;}
+
+/* ==========================
+   CONTEÚDO
+========================== */
+
+.conteudo{
+    max-width:1250px;
+    margin:40px auto;
+
+    display:flex;
+    align-items:flex-start;
 }
 
+/* ==========================
+   COLUNA PRINCIPAL
+========================== */
 
-.materia{
-    font-size: 18px;
-    color: #303134;
-    width: 622px;
-    height: 25px;
+.principal{
+    width:680px;
+    padding-right:35px;
+    border-right:1px solid #EBEDEF;
 }
 
 .divisoria{
-    padding-bottom: 30px;
-    border-bottom: 2px solid #EBEDEF;
-    width: 640px;
-
+    border-bottom:1px solid #EBEDEF;
+    padding-bottom:30px;
 }
 
-.estrutura{
-    width: 699px;
-    border-right: 2px solid #EBEDEF;
+.principais{
+    color:#C4160C;
+    font-size:52px;
+    line-height:1.05;
+    font-weight:700;
+    margin-bottom:22px;
 }
 
-.terciarias{
-    padding-top: 20px;
-    display: flex;
-}
-
-    .card2{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        padding-right: 20px;
-    }
-
-.terciarias h6{
-    margin-top: auto;
-    color: #C4170C;
-    font-size: 14px;
-    margin: 0;
+.materia{
+    font-size:20px;
+    color:#303134;
+    line-height:1.4;
 }
 
 .secao1{
-       border-bottom: 2px solid #EBEDEF;
-       padding-bottom: 50px;
-       width: 640px;
+    padding-top:28px;
 }
 
-.terciarias h4{
-    font-size: 20px;
-    height: 84px;
-    width: 192px;
+.terciarias{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    margin-bottom:35px;
 }
 
-.terciarias p{
-    font-size: 14px;
-    width: 174px;
-    height: 42.5px;   
+/* ==========================
+   CARDS
+========================== */
+
+.card,
+.card2{
+    flex:1;
 }
 
-.terciarias img{
-    border-radius: 12px;
-    padding-right: 20px;
+.card img{
+    width:100%;
+    border-radius:12px;
+    margin-bottom:12px;
 }
 
-
-.g1{
-    color:#C3170C;
-    font-weight: bolder;
-    font-size: 19px;
-
+.card h6,
+.card2 h6{
+    color:#C4170C;
+    font-size:14px;
+    margin-bottom:8px;
 }
 
-.globo{
-    color: #1E4B9B;
-    font-weight: bolder;
-    font-size: 19px;
+.card h4,
+.card2 h4{
+    font-size:20px;
+    font-weight:700;
+    line-height:1.25;
+    margin-bottom:10px;
 }
 
-.valor{
-    color: #006766;
-    font-weight: bolder;
-    font-size: 19px;
+.card p,
+.card2 p{
+    font-size:14px;
+    color:#303134;
+    line-height:1.4;
 }
 
-.ge{
-    color: #07AA47;
-    font-weight: bolder;
-    font-size: 19px;
-}
+.esportes{
+    width:270px;
+    padding:0 35px;
+    border-right:1px solid #EBEDEF;
 
-.cartola{
-    color: #E3662B;
-    font-weight: bolder;
-    font-size: 19px;
-}
-
-.globoplay{
-    color: #FB0735;
-    font-weight: bolder;
-    font-size: 19px;
-}
-
-.dropz{
-    color: #FF75BB;
-    font-weight: bolder;
-    font-size: 19px;
-}
-.gshow{
-    color: #EC7D00;
-    font-weight: bolder;
-    font-size: 19px;
-}
-
-.quem{
-    color: #323333;  
-    font-weight: bolder;
-    font-size: 19px;
-
-}
-
-.receitas{
-    color: #A81D83;
-    font-weight: bolder;
-    font-size: 19px;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
 }
 
 .card3{
-    position: relative;
-    display: flex;
-    bottom: 950px;
-    left: 730px;
-    flex-direction: column;
-    width: 213px;
-    height: 324.69px;
-}
-
-.card3 h6{
-    color: #16AE54;
-    font-size: 14px;
-    width: 240px;
-    height: 19px;
-    margin-top: auto;
-}
-
-.card3 h4{
-    width: 240px;
-    height: 84px;
-    margin-bottom: auto;
-}
-
-.card3 p{
-    font-size: 14px;
+    display:flex;
+    flex-direction:column;
 }
 
 .card3 img{
-    width: 100%;
-    border-radius: 12px;
+    width:100%;
+    border-radius:12px;
+    margin-bottom:12px;
 }
 
-#posicao{
-    padding-top: 10px;
+.card3 h6{
+    color:#16AE54;
+    font-size:14px;
+    margin-bottom:8px;
 }
 
-.point{
-    position: relative;
-    top: 10px;
+.card3 h4{
+    font-size:20px;
+    line-height:1.25;
+    margin-bottom:10px;
+    font-weight:700;
 }
 
-.card4 h6{
-    color: #EC8006;
-    font-size: 14px;
-    width: 240px;
-    height: 19px;
-    margin-top: 11px;
+.card3 p{
+    font-size:14px;
+    color:#303134;
+    line-height:1.4;
+}
+
+/* ==========================
+   COLUNA ENTRETENIMENTO
+========================== */
+
+.entretenimento{
+    width:270px;
+    padding-left:35px;
+
+    display:flex;
+    flex-direction:column;
+    gap:40px;
 }
 
 .card4{
-   position: relative;
-    display: flex;
-    bottom: 1985px;
-    left: 1050px;
-    flex-direction: column;
-    width: 213px;
-    height: 324.69px;
+    display:flex;
+    flex-direction:column;
 }
 
-
-
 .card4 img{
-    width: 100%;
-    border-radius: 12px;
+    width:100%;
+    border-radius:12px;
+    margin-bottom:12px;
+}
+
+.card4 h6{
+    color:#EC8006;
+    font-size:14px;
+    margin-bottom:8px;
 }
 
 .card4 h4{
-    width: 240px;
-    height: 84px;
-    margin-bottom: auto;
+    font-size:20px;
+    line-height:1.25;
+    margin-bottom:10px;
+    font-weight:700;
 }
 
 .card4 p{
-    font-size: 14px;
-    position: relative;
-    bottom: 15px;
+    font-size:14px;
+    color:#303134;
+    line-height:1.4;
+}
+
+/* ==========================
+   EFEITOS
+========================== */
+
+.card,
+.card2,
+.card3,
+.card4{
+    cursor:pointer;
+    transition:.25s;
+}
+
+.card:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover{
+    transform:translateY(-3px);
+}
+
+.card h4:hover,
+.card2 h4:hover,
+.card3 h4:hover,
+.card4 h4:hover{
+    text-decoration:underline;
+}
+
+/* ==========================
+   RESPONSIVO
+========================== */
+
+@media (max-width:1100px){
+
+    .conteudo{
+        flex-direction:column;
+        gap:40px;
+        padding:0 20px;
+    }
+
+    .principal,
+    .esportes,
+    .entretenimento{
+        width:100%;
+        border-right:none;
+        padding:0;
+    }
+
+    .terciarias{
+        flex-wrap:wrap;
+    }
+
+    .card,
+    .card2{
+        min-width:250px;
+    }
 
 }
 
-#sobe{
-    position: relative;
-    bottom: 45px;
-    left: -2px;
-}
+@media (max-width:700px){
 
-.card4::before {
-    content: "";
-    position: absolute;
-    transform: rotate(90deg);
-    top: 185px;           
-    left: -250px;
-    width: 190%;
-    height: 2px;
-    background-color: #EBEDEF;
+    .lista{
+        gap:15px;
+        justify-content:center;
+    }
+
+    .principais{
+        font-size:38px;
+    }
+
+    .materia{
+        font-size:18px;
+    }
+
+    .terciarias{
+        flex-direction:column;
+    }
+
 }
